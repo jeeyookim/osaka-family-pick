@@ -393,7 +393,7 @@ const SWIPE_KO={must:"꼭 가기",maybe:"고민 중",skip:"패스"};
 
 /* ---------- state: every vote is saved to the family Google Sheet ---------- */
 /* Apps Script web app that writes rows into "Votes (투표 기록)" of the planner sheet. */
-const API_URL="__API_URL__";
+const API_URL="https://script.google.com/macros/s/AKfycbxrcadK_zz3urolbZRuoWLiUQsELv0U_i9Us3XQyR2qf7EKFSemN3ysnmMt8oY8hunWWg/exec";
 const LS="osakaPick.v2";
 function lsGet(){try{return JSON.parse(localStorage.getItem(LS))||{}}catch(e){return {}}}
 function lsSet(v){try{localStorage.setItem(LS,JSON.stringify(v))}catch(e){}}
